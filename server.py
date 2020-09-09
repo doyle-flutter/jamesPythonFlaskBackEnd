@@ -10,6 +10,8 @@ from flask import Flask
 application = Flask(__name__)
 
 import socketio
+## 서버를 소켓의 클라이언트로도 사용 가능합니다(Flask -> Node.js 에 연결한 구성입니다)
+## 서버는 받는 입장으로만 생각하지 않아도 됩니다
 sio = socketio.Client()
 sio.connect('http://192.168.0.2:3000')
 @sio.event
