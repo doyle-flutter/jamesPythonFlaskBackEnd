@@ -5,7 +5,7 @@ ML 서비스를 운용하는 기본 단계를 목표로 진행
 
 ## 기 본
 - [ ] : MySQL CRUD
-- [ ] : Node.js 연결
+- [x] : Node.js Socket 연결 / Flask를 클라이언트로 사용
 - [ ] : Flutter 활용
   
 ## 기능
